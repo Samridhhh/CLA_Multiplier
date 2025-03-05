@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_wb_cla_adder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_wb_cla_adder_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="21.951 ns"></ZoomEndTime>
+      <Cursor1Time time="50.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="232"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+      <marker time="50000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/in1" type="array">
+      <obj_property name="ElementShortName">in1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/in2" type="array">
+      <obj_property name="ElementShortName">in2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/carry_in" type="logic">
+      <obj_property name="ElementShortName">carry_in</obj_property>
+      <obj_property name="ObjectShortName">carry_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/sum" type="array">
+      <obj_property name="ElementShortName">sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/carry_out" type="logic">
+      <obj_property name="ElementShortName">carry_out</obj_property>
+      <obj_property name="ObjectShortName">carry_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_wb_cla_adder_tb/DATA_WID" type="array">
+      <obj_property name="ElementShortName">DATA_WID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WID[31:0]</obj_property>
+   </wvobject>
+</wave_config>
